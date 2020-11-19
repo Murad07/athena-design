@@ -74,21 +74,48 @@ footer {
             =========================================
 */
 
-.single-achievments-right-part{
+.single-achievments-right-part {
   margin-bottom: 50px;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.single-achievments-right-part:hover{
+.single-achievments-right-part:hover {
   border-radius: 0px 80px 0px 80px;
   background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
   color: white;
 }
-.achievments-contect{
+.achievments-contect {
   margin-left: 15px;
 }
-.achievments-contect h3{
+.achievments-contect h3 {
   font-weight: bold;
+}
+
+/*
+            =========================================
+                          Team area CSS
+            =========================================
+*/
+.teamHr {
+  width: 250px;
+  border-top: 1px solid #3cedce;
+}
+.team-card {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+}
+.team-card:hover hr {
+  border: 1px solid #e3e3e3;
+}
+.team-card:hover {
+  border: 1px solid #3cedce;
+}
+.team-card button {
+  display: none;
+}
+.team-card:hover button {
+  display: inline;
 }
