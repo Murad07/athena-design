@@ -4,3 +4,10 @@
 .navbar-toggler {
   border-color: white !important;
 }
+
+.bigText {
+  font-size: 100px;
+}
+footer {
+  padding-bottom: 50px;
+}
