@@ -10,7 +10,15 @@
                           Common CSS
             =========================================
 */
-
+body{
+  font-family: 'Montserrat', sans-serif;
+/* font-family: 'Poppins', sans-serif;
+ */
+}
+h2{
+  font-family: 'Yeseva One', cursive;
+  color: #0D052E;
+}
 a {
   text-decoration: none;
 }
@@ -32,6 +40,10 @@ a {
 .brand-btn:focus {
   outline: none;
 }
+input:focus,
+button:focus{
+  outline: none;
+}
 
 /*
             =========================================
@@ -47,6 +59,8 @@ a {
 
 .bigText {
   font-size: 100px;
+  font-family: 'Yeseva One', cursive;
+  color: #0D052E;
 }
 footer {
   padding-bottom: 50px;
@@ -73,13 +87,25 @@ footer {
                           Achievements area CSS
             =========================================
 */
-
+.achievements-right-area{
+  background-color: #ECFDF5;
+  padding: 25px 25px;
+}
 .single-achievments-right-part {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  background-color: #fff;
+  border-radius: 80px 0px 80px 0px;
   transition: 0.5s;
+}
+.smile-img{
+  filter: invert(50%);
+}
+.single-achievments-right-part:hover .smile-img,
+.single-achievments-right-part:hover .achiv-img{
+  filter: brightness(90);
 }
 .single-achievments-right-part:hover {
   border-radius: 0px 80px 0px 80px;
@@ -91,6 +117,9 @@ footer {
 }
 .achievments-contect h3 {
   font-weight: bold;
+}
+.achievments-contect p{
+  font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -111,6 +140,14 @@ footer {
   border: 1px solid white;
   background-color: white;
 }
+
+.team-card h1,h6{
+  font-family: 'Poppins', sans-serif;
+}
+.team-card:hover hr {
+  border: 1px solid #e3e3e3;
+}
+
 .team-card:hover {
   border: 1px solid #3cedce;
 }
@@ -121,11 +158,30 @@ footer {
 .team-card:hover button {
   visibility: visible;
 }
-/* 
-img {
-  -webkit-filter: grayscale(100%);
-  transition: -webkit-filter 0.3s linear;
+
+
+/*
+            =========================================
+                          Get Design area CSS
+            =========================================
+*/
+.get-input input{
+  width: 400px;
+  height: 50px;
+  padding-right: 50px;
+  padding-left: 15px;
+  border: none;
+  box-shadow: -5px 6px 18px 11px #ddd;
+  border-radius: 5px;
 }
-img:hover {
-  -webkit-filter: grayscale(75%);
-} */
+.get-input button{
+  margin-left: -110px;
+  height: 40px;
+  margin-top: 5px;
+  width: 100px;
+  background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
