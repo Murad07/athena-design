@@ -100,22 +100,32 @@ footer {
 */
 .teamHr {
   width: 250px;
-  border-top: 1px solid #3cedce;
+  border: 1px solid #3cedce;
 }
+.team-card:hover hr {
+  border: 1px solid #e3e3e3;
+}
+
 .team-card {
   padding: 20px 20px 20px 20px;
   border: 1px solid white;
   background-color: white;
 }
-.team-card:hover hr {
-  border: 1px solid #e3e3e3;
-}
 .team-card:hover {
   border: 1px solid #3cedce;
 }
+
 .team-card button {
-  display: none;
+  visibility: hidden;
 }
 .team-card:hover button {
-  display: inline;
+  visibility: visible;
 }
+/* 
+img {
+  -webkit-filter: grayscale(100%);
+  transition: -webkit-filter 0.3s linear;
+}
+img:hover {
+  -webkit-filter: grayscale(75%);
+} */
