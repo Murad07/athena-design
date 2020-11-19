@@ -49,6 +49,16 @@
 }
 
 
+
+.bigText {
+  font-size: 100px;
+}
+footer {
+  padding-bottom: 50px;
+}
+
+
+
 /*
             =========================================
                           What we do area CSS
@@ -65,3 +75,4 @@
   border-radius: 65px 0px 65px 0px;
   
 }
+

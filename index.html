@@ -47,7 +47,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
@@ -68,8 +68,27 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- Content and Image section -->
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 py-auto">
+                    <h1 class="bigText p-0">Folorance agency</h1>
+                    <p class="text-secondary pt-3">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Dolores adipisci eos deserunt fugit voluptatum qui natus ducimus voluptates
+                        asperiores reiciendis, iste quam temporibus cupiditate earum magnam?
+                    </p>
+                    <button class="btn btn-primary">See Pricing</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/head.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
     </div>
     <!-- header section -->
+
 
     <!-- What wa do area Start-->
     <div class="what-do-area mb-4"> 
@@ -191,6 +210,53 @@
 
     <!-- Brand Button Code
     <button class="brand-btn">Click</button> -->
+
+    <!-- Footer section -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="text-center text-md-left">
+                    <img src="./images/logo.png" width="120" class="d-inline-block align-top" alt="" loading="lazy">
+                </div>
+                <div class="text-center text-md-left pt-4">
+                    <img src="./images/facebook.png" alt="" sizes="" class="pl-5">
+                    <img src="./images/twitter.png" alt="" sizes="" class="pl-5">
+                    <img src="./images/linkdin.png" alt="" sizes="" class="pl-5">
+                    <img src="./images/dribbble.png" alt="" sizes="" class="pl-5">
+                </div>
+            </div>
+            <div class="col-md-2 text-center text-md-left pt-4">
+                <p>
+                    Features <br>
+                    Enterprice <br>
+                    Pricing 
+                </p>
+            </div>
+            <div class="col-md-2 text-center text-md-left pt-4">
+                <p>
+                    Blog <br>
+                    Help Center <br>
+                    Contact Us <br>
+                    Status <br>
+                </p>
+            </div>
+            <div class="col-md-3 text-center text-md-left pt-4">
+                <p>
+                    About Us <br>
+                    Terms of Service <br>
+                    Security <br>
+                    Login
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(".nav a").on("click", function () {
+                $(".nav").find(".active").removeClass("active");
+                $(this).parent().addClass("active");
+            });
+    </script>
 
     <!-- bootstrap script must be at bottom -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
