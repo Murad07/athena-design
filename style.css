@@ -5,36 +5,32 @@
 *Author: Team-19
 */
 
-
-
 /*
             =========================================
                           Common CSS
             =========================================
 */
-  
-  a{
-    text-decoration: none;
-  }
-  .brand-btn{
-    width: 150px;
-    height: 45px;
-    color: white;
-    margin-left: 100px;
-    outline: none;
-    border: none;
-    border-radius: 25px 0px 25px 0px;
-    background-image: linear-gradient(to right,#1CD8BA, #09B1E7);
-    transition: .5s;
-  }
-  .brand-btn:hover{
-    border-radius: 0px 25px 0px 25px;
-    background-image: linear-gradient(to left,#1CD8BA, #09B1E7);
-  }
-  .brand-btn:focus{
-    outline: none;
-  }
 
+a {
+  text-decoration: none;
+}
+.brand-btn {
+  width: 150px;
+  height: 45px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 25px 0px 25px 0px;
+  background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
+  transition: 0.5s;
+}
+.brand-btn:hover {
+  border-radius: 0px 25px 0px 25px;
+  background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+}
+.brand-btn:focus {
+  outline: none;
+}
 
 /*
             =========================================
@@ -48,8 +44,6 @@
   border-color: white !important;
 }
 
-
-
 .bigText {
   font-size: 100px;
 }
@@ -57,22 +51,18 @@ footer {
   padding-bottom: 50px;
 }
 
-
-
 /*
             =========================================
                           What we do area CSS
             =========================================
 */
 
-.single-what-do-card{
+.single-what-do-card {
   padding: 30px 50px;
-  transition: .5s;
+  transition: 0.5s;
 }
-.single-what-do-card:hover{
+.single-what-do-card:hover {
   background: white;
-  box-shadow: 5px 5px 10px 10px  #c9f1e1;
+  box-shadow: 5px 5px 10px 10px #c9f1e1;
   border-radius: 65px 0px 65px 0px;
-  
 }
-
