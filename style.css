@@ -15,18 +15,19 @@ a {
   text-decoration: none;
 }
 .brand-btn {
-  width: 150px;
-  height: 45px;
+  width: 175px;
+  height: 50px;
   color: white;
   outline: none;
   border: none;
-  border-radius: 25px 0px 25px 0px;
+  border-radius: 30px 0px 30px 0px;
   background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
   transition: 0.5s;
 }
 .brand-btn:hover {
-  border-radius: 0px 25px 0px 25px;
+  border-radius: 0px 30px 0px 30px;
   background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+  color: white;
 }
 .brand-btn:focus {
   outline: none;
@@ -64,5 +65,30 @@ footer {
 .single-what-do-card:hover {
   background: white;
   box-shadow: 5px 5px 10px 10px #c9f1e1;
-  border-radius: 65px 0px 65px 0px;
+  border-radius: 80px 0px 80px 0px;
+}
+
+/*
+            =========================================
+                          Achievements area CSS
+            =========================================
+*/
+
+.single-achievments-right-part{
+  margin-bottom: 50px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: .5s;
+}
+.single-achievments-right-part:hover{
+  border-radius: 0px 80px 0px 80px;
+  background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+  color: white;
+}
+.achievments-contect{
+  margin-left: 15px;
+}
+.achievments-contect h3{
+  font-weight: bold;
 }
