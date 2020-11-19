@@ -12,8 +12,7 @@
 */
 body{
   font-family: 'Montserrat', sans-serif;
-/* font-family: 'Poppins', sans-serif;
- */
+
 }
 h2{
   font-family: 'Yeseva One', cursive;
@@ -58,7 +57,7 @@ button:focus{
 }
 
 .bigText {
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Yeseva One', cursive;
   color: #0D052E;
 }
@@ -175,10 +174,10 @@ footer {
   border-radius: 5px;
 }
 .get-input button{
-  margin-left: -110px;
+  margin-left: -115px;
   height: 40px;
   margin-top: 5px;
-  width: 100px;
+  width: 105px;
   background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
   color: white;
   border: none;
