@@ -59,7 +59,7 @@ button:focus {
             =========================================
 */
 .navbar-light .navbar-toggler-icon {
-  background-image: url(/images/menuIcon.PNG) !important;
+  background-image: url('./images/menuIcon.PNG') !important;
 }
 .navbar-toggler {
   border-color: white !important;
@@ -138,7 +138,8 @@ button:focus {
   font-family: 'Poppins', sans-serif;
   color: #707070;
 }
-.single-achievments-right-part:hover h3,.achievments-contect p{
+.single-achievments-right-part:hover h3,
+.achievments-contect p {
   color: white;
 }
 
