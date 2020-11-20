@@ -230,3 +230,33 @@ footer {
 html {
   scroll-behavior: smooth;
 }
+
+/*
+            =========================================
+                      Background Image CSS
+            =========================================
+*/
+.topHead {
+  background-image: url('./images/bgTop.PNG');
+  background-size: cover;
+}
+.what-do-area {
+  background-image: url('./images/bg2.PNG');
+  background-size: cover;
+}
+.stay-runing {
+  background-image: url('./images/bg3.PNG');
+  background-size: cover;
+}
+.achievements-area {
+  background-image: url('./images/b4.PNG');
+  background-size: cover;
+}
+.team-section {
+  background-image: url('./images/b5.PNG');
+  background-size: cover;
+  padding-top: 100px;
+}
+body {
+  background-color: #fafffd;
+}
