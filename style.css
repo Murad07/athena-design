@@ -138,6 +138,9 @@ button:focus {
   font-family: 'Poppins', sans-serif;
   color: #707070;
 }
+.single-achievments-right-part:hover h3,.achievments-contect p{
+  color: white;
+}
 
 /*
             =========================================
